@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+.hero {
+	background-image: url(https://source.unsplash.com/1600x900/?pizza);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #f44336;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
